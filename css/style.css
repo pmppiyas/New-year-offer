@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins" , sans-serif;
+}
+
+:root{
+  --orange-color:#ff0000;
+  --white-color:#fff;
+  --black-color:#000;
+}
+body{
+  max-width: 1320px;
+}
+
+ .container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 100px;
+  border: 2px solid black;
+  height: 450px;
+  width: calc(100% - 200px);
+  background-image: url(/image/images/Banner\ Image.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+ }
+
+ .main-content{
+  position: absolute;
+  top: 0;
+  right: auto;
+  height: 300px;
+  width: 50%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .main-content h3{
+  font-size: 25px;
+  color: var(--white-color);
+  margin: 0;
+ }
+ .main-content h1{
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  align-items: center;
+  color: var(--white-color);
+  text-align: center;
+  letter-spacing: 1.2px;
+ }
+
+.off-offer{
+
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: antiquewhite;
+}
+
+.off-offer h1{
+  padding-top: 20px;
+  font-size: 45px;
+  margin: 0;
+  color: var(--orange-color);
+ 
+}
+
+.off-offer p{
+  font-weight: 500;
+  color: var(--orange-color);
+  margin: 0;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+
+.off-offer h2{
+  margin: 0;
+  font-size: 32px;
+  
+}
+
+.offer-img{
+  height: 60%;
+  width: 100%;
+  background-color: 2px solid black;
+}
+
+.happy-new-year{
+  width: 100%;
+}
+
+.party{
+  height: 450px;
+  width: calc(100% - 200px);
+  background-image: url(/image/images/Vectorrr.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.party-content{
+  height: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.party-content h1{
+  font-size: 55px;
+  letter-spacing: 1.2px;
+  margin: 0;
+  color: var(--white-color);
+  font-weight: 700;
+}
+.party-content p{
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--white-color);
+}
+
+.party-content a{
+  background: none;
+  color: var(--white-color);
+  font-size: 20px;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.party-img {
+  position: absolute;
+  height: 60%;
+  width: 30%;
+  bottom: 100px;
+  right: 0;
+ 
+}
+.party-img img{
+  width: 70%;
+}
+
+.location{
+  margin-top: 100px;
+  height: 400px;
+  width: calc(100% - 200px);
+  background-image: linear-gradient(180deg ,#ffe1e6 , #fffff9 , #ffe1e6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+
+
+.location .loc{
+  font-size: 30px;
+  margin: 0;
+  padding: 5px;
+}
+.location .loc span{
+  color: var(--orange-color);
+  padding-right: 5px;
+  font-size: 25px;
+}
+
+.location button{
+  font-size: 15px;
+  padding: 7px 35px;
+  border-radius: 10px;
+  color: var(--white-color);
+  background-color: var(--orange-color);
+  margin-top: 35px;
+  transition: .5s ease-in-out;
+  
+}
+
+.location button:hover{
+ color: var(--black-color);
+}
+
+.coming-soon{
+  border: 3px solid black;
+  margin: 100px ;
+  width: calc(100% - 200px);
+  height: 400px;
+  display: flex;
+  
+  justify-content: center;
+  gap: 50px;
+ 
+}
+
+.left-item{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  border: 2px solid black;
+  
+}
+.left-item h3{
+text-transform: capitalize;
+font-size: 15px;
+font-weight: 500;
+color: var(--orange-color);
+
+}
+
+.left-item h1{
+ font-size: 35px;
+}
+
+.mid-item{
+  height: 75%;
+  w
+}
